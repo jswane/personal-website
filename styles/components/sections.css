@@ -1,0 +1,26 @@
+section {
+  background-color: rgb(218, 226, 231);
+  font-size: 1.5rem;
+  color: rgb(32, 32, 32);
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  padding: 0px; /* ul hat per default 8px, daher auf 0 setzen*/
+  line-height: 1.8rem;
+}
+
+.figure__logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

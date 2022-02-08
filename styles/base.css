@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+
+/* * = Universal selektor: wendet box-sizing auf alle Selektoren an, mit Sternchen */
+* {
+  box-sizing: border-box;
+}
+/* Globale Selektoren, ohne Punkt */
+body {
+  background-color: rgb(206, 221, 221);
+  margin: 6px;
+  padding: 30px;
+  font-family: "Ubuntu";
+  font-size: 1rem;
+}
+
+h1 {
+  font-size: 5rem;
+  font-weight: 900;
+  margin: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  height: 40px;
+}
+
+p {
+  font-size: 1rem;
+  display: inline-block;
+}
